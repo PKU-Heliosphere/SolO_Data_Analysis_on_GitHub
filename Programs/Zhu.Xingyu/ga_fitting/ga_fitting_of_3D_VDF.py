@@ -349,6 +349,8 @@ for i_time, epoch in enumerate(epoch_lst):
 
         last_fitness = 0
 
+        # pygad is a Python library that provides an implementation of the Genetic Algorithm (GA) for solving optimization and search problems. 
+        # The pygad.GA class is a central component of the pygad library, and it encapsulates the functionality needed to perform a genetic algorithm search.
         ga_instance = pygad.GA(num_generations=num_generations,
                                num_parents_mating=num_parents_mating,
                                sol_per_pop=sol_per_pop,
